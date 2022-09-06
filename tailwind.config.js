@@ -9,7 +9,7 @@ module.exports = {
       "soft-violet": "hsl(277, 64%, 61%)",
       'white': "hsl(0, 0%, 100%)",
       "slightly-transparent-white": "hsla(0, 0%, 100%, 0.75)",
-      "slightly-transparent-white": "hsla(0, 0%, 100%, 0.6)",
+      "slightly-transparent-whites": "hsla(0, 0%, 100%, 0.6)",
     },
   },
   plugins: [],
