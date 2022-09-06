@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | Stats preview card component</title>
 
-</head>
-<body>
-
-
-
-</body>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="flex justify-center items-center min-h-screen bg-very-dark-blue">
+    <div
+      class="max-w-[16rem] bg-dark-desaturated-blue rounded-xl overflow-hidden "
+    >
+      <div class="">
+        <img src="./images/image-header-mobile.jpg" alt="Image File" />
+      </div>
+      <div class="pt-6 px-7 text-center text-white text-2xl">
+        <span class="decoration-8"
+          >Get <span class="text-soft-violet">insights</span> that help your
+          business grow.</span
+        >
+        <p class="text-sm mt-3 text-slightly-transparent-white">
+          Discover the benefits of data analytics and make better decissions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="mt-8">
+          <div class="">
+            <div class="text-md font-medium">10k+</div>
+            <div
+              class="text-slightly-transparent-white text-[0.8rem] tracking-widest"
+            >
+              COMPANIES
+            </div>
+          </div>
+          <div class="mt-1">
+            <div class="text-md font-medium">314</div>
+            <div
+              class="text-slightly-transparent-white text-[0.8rem] tracking-widest"
+            >
+              TEMPLATES
+            </div>
+          </div>
+          <div class="mt-1 pb-3">
+            <div class="text-md font-medium">12M+</div>
+            <div
+              class="text-slightly-transparent-white text-[0.8rem] tracking-widest"
+            >
+              QUERIES
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
